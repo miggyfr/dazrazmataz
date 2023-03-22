@@ -1,0 +1,922 @@
+<DAZStudioActionMgr Version="1.3.0.0">
+ <ActionList>
+  <Action Class="DzMeshSmoothAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRemoveMeshSmoothAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAudioAction" ShowTextWithIcon="false"/>
+  <Action Accel="Del" Class="DzDeleteAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDeleteAllCamerasAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDeleteAllLightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDevicesAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Q" Class="DzExitAction" ShowTextWithIcon="false"/>
+  <Action Class="DzExportAction" ShowTextWithIcon="false"/>
+  <Action Class="DzImportAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+O" Class="DzMergeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+N" Class="DzNewAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+O" Class="DzOpenAction" ShowTextWithIcon="false"/>
+  <Action Accel="F2" Class="DzPreferencesAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Y" Class="DzRedoAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+S" Class="DzSaveAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Z" Class="DzUndoAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearRecentFilesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFitToAction" ShowTextWithIcon="false"/>
+  <Action Class="DzChangeParentAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+R" Class="DzRenderAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+R" Class="DzRenderSettingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRenderSettingsShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRenderSettingsRestoreDefaultsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSaveLastRenderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDrawSettingsShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDrawSettingsRestoreDefaultsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSaveLastDrawAction" ShowTextWithIcon="false"/>
+  <Action Accel="Home" Class="DzWelcomeHomeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzQuickStartGuideAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+F1" Class="DzUserGuideAction" ShowTextWithIcon="false"/>
+  <Action Class="DzReferenceGuideAction" ShowTextWithIcon="false"/>
+  <Action Class="DzVideoTutorialsAction" ShowTextWithIcon="false"/>
+  <Action Accel="F1" Class="DzLaunchHelpBrowserAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+F1" Class="DzWhatsThisAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFrequentQuestionsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZTutorialsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZWebSiteAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZGalleriesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZForumsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZNewUserHelpForumAction" ShowTextWithIcon="false"/>
+  <Action Class="DzReportABugAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRegisterDAZStudioAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAboutDAZStudioAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAboutPluginsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAboutHardwareAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLogFileAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZLoginAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWorkOfflineAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUpdateMetadataAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZMyAccountAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZMyGalleryAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZMyCartAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZMyWishlistAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSelectLayoutAction" ShowTextWithIcon="false"/>
+  <Action Accel="F4" Class="DzSaveLayoutAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDeleteLayoutAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCustomColorsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDeleteStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSaveStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSelectStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction0" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction1" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction2" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction3" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction4" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction5" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction6" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction7" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction8" ShowTextWithIcon="false"/>
+  <Action Class="DzActivityAction9" ShowTextWithIcon="false"/>
+  <Action Class="Dz2Bottom1TopAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz2Left1RightAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz2Right1LeftAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz2Top1BottomAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3Bottom1TopAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3Left1RightAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3Right1LeftAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3Top1BottomAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Up" Class="DzBackViewAction" ShowTextWithIcon="false"/>
+  <Action Accel="Alt+Down" Class="DzBottomViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFourViewsAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Down" Class="DzFrontViewAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Right" Class="DzLeftViewAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+P" Class="DzPerspectiveViewAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Left" Class="DzRightViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideBySideAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSingleViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTopAndBottomAction" ShowTextWithIcon="false"/>
+  <Action Accel="Alt+Up" Class="DzTopViewAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+1" Class="DzWireBoxStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+2" Class="DzSolidBoxStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+3" Class="DzWireframeStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+5" Class="DzHiddenLineStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+4" Class="DzLitWireframeStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+6" Class="DzWireShadedStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+7" Class="DzSmoothShadedStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+9" Class="DzTexturedStyleAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+8" Class="DzWireTexturedStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCartoonStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzOffScreenPaneGroupsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzOffScreenToolBarsAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+U" Class="DzLockUIAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToggleActivityBarAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToggleOrientTabsAlongTopAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToggleLessonStripShowAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUpdateAndMergeMenusAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAlwaysOnTopAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+F11" Class="DzFullScreenAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+L" Class="DzPreviewLightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLessonRecordAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKClearPinAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKClearPinsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKConvertToFKAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKEnableHardPinsAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+K" Class="DzIKEnableIKAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKEnablePinsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKPinBothAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKPinRotationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIKPinTranslationAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+K" Class="DzViewControlKeyNavAction" ShowTextWithIcon="false"/>
+  <Action Accel="Q" Class="DzDollyCameraUpAction" ShowTextWithIcon="false"/>
+  <Action Accel="E" Class="DzDollyCameraDownAction" ShowTextWithIcon="false"/>
+  <Action Accel="W" Class="DzDollyCameraForwardAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDollyCameraBackAction" ShowTextWithIcon="false"/>
+  <Action Accel="A" Class="DzDollyCameraLeftAction" ShowTextWithIcon="false"/>
+  <Action Accel="D" Class="DzDollyCameraRightAction" ShowTextWithIcon="false"/>
+  <Action Accel="]" Class="DzIncreaseCameraDollyFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="[" Class="DzDecreaseCameraDollyFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="Alt+[" Class="DzResetCameraDollyFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="I" Class="DzRotateCameraUpAction" ShowTextWithIcon="false"/>
+  <Action Accel="K" Class="DzRotateCameraDownAction" ShowTextWithIcon="false"/>
+  <Action Accel="J" Class="DzRotateCameraLeftAction" ShowTextWithIcon="false"/>
+  <Action Accel="L" Class="DzRotateCameraRightAction" ShowTextWithIcon="false"/>
+  <Action Accel="U" Class="DzBankCameraLeftAction" ShowTextWithIcon="false"/>
+  <Action Accel="O" Class="DzBankCameraRightAction" ShowTextWithIcon="false"/>
+  <Action Accel="}" Class="DzIncreaseCameraRotateFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="{" Class="DzDecreaseCameraRotateFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="Alt+]" Class="DzResetCameraRotateFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="P" Class="DzLevelCameraRotateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIncreaseCameraLevelFactorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDecreaseCameraLevelFactorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzResetCameraLevelFactorAction" ShowTextWithIcon="false"/>
+  <Action Accel="Alt+P" Class="DzLevelCameraSnapAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+A" Class="DzAimCameraAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+F" Class="DzFrameCameraAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Alt+R" Class="DzResetCameraAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPointAtAction" ShowTextWithIcon="false"/>
+  <Action Accel="." Class="DzNextToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="," Class="DzPreviousToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+F" Class="DzSceneNavigatorToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+V" Class="DzPickToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+U" Class="DzUniversalToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+R" Class="DzRotateToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+T" Class="DzTranslateToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+S" Class="DzScaleToolAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+M" Class="DzMaterialPickToolAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushEaseInAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushEaseInOutAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushEaseOutAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGrad2Action" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGrad3Action" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGrad4Action" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradEaseInAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradEaseInOutAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradEaseOutAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradientApplyAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradientFlipAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradientModeAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradientSnapAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushGradLinearAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushLinearAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushPaintModeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+L" Class="Dz3DBrushSelectModeAction" ShowTextWithIcon="false"/>
+  <Action Class="Dz3DBrushSmoothModeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+H" Class="Dz3DBrushSphereGradientModeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+[" Class="Dz3DBrushFacetSelectionTypeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+]" Class="Dz3DBrushEdgeSelectionTypeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+\" Class="Dz3DBrushVertexSelectionTypeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushColorsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushCopyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushDisplayBoolAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushDisplayPointsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushDisplayOffAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushDisplayValueAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushFillAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushPasteAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushSmoothAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWeightMapBrushAttenuateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetDragSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetHideAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetHideInvertAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetHideUnSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetLassoSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetLockAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetLockInvertAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetRectangleSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelClearAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+*" Class="DzFacetSelConnectedAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl++" Class="DzFacetSelGrowAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+/" Class="DzFacetSelInvertAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+-" Class="DzFacetSelShrinkAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetShowAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetUnlockAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelReverseWindingOrderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelRotateWindingOrderAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+=" Class="DzFacetSelFacetLoopAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+|" Class="DzFacetSelBoundaryAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelConvertToFacetSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelConvertToEdgeSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelConvertToVertexSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetSelectIslandAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFacetDeselectIslandAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimpleWorkflowActorsModeAction" ShowTextWithIcon="true"/>
+  <Action Class="DzSimpleWorkflowHairModeAction" ShowTextWithIcon="true"/>
+  <Action Class="DzSimpleWorkflowWardrobeModeAction" ShowTextWithIcon="true"/>
+  <Action Class="DzMyFaceAction" ShowTextWithIcon="true"/>
+  <Action Class="DzRandomizeShapeAction" ShowTextWithIcon="true"/>
+  <Action Class="DzHelpPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRenderPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzScenePaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSurfacesPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzViewPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWidgetMapPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzViewportMgrPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAuxViewportPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzEnvironmentPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDrawPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimulationSettingsPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementDataEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPCloseAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPCloseSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPCloseFromSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPExpandAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPExpandSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPExpandFromSelectedAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+I" Class="DzHPInvertSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPNoSortAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPClearSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectChildrenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPDeselectChildrenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectCamerasAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectDFormsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectFiguresAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectLightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSelectObjectsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowCamerasAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowDFormsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowFiguresAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowIKAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowLightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPShowObjectsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSortAscendAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSortDescendAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPTogglePIPAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSceneDataEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPSceneIDEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPNodeElementDataEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPLockBoneOrderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPOrderNodesMoveUpAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPOrderNodesMoveToTopAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPOrderNodesMoveDownAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHPOrderNodesMoveToBottomAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearPropertyNewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLDirectoryManagerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLDatabaseMigrationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLContentSearchAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLEditPreferencesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLStopCMSAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLStartCMSAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLExportProductMetadataAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLInstallOfflinePackagesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCRMAlwaysReplaceContentAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCRMAskToReplaceContentAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCRMNeverReplaceContentAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRLDirectoryManagerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFDisplaySelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFDisplaySelectedWithFitAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFDisplayAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCopyMaterialAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPasteMaterialAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFExpandAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFExpandAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFCollapseAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFCollapseAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFUnLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSRFUnHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMaterialElementDataEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzEditMaterialSelectionSetsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAutoRefreshImagesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLoadUVSetAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+I" Class="DzRefreshImagesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimulateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimulateSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearSimulationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimulationSettingsShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimulationSettingsRestoreDefaultsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearKeysFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearKeysFigureShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearKeysFigurePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearKeysPoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearKeysSelectedItemsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearKeysShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCollapseAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCollapseAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCopyFigureAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+C" Class="DzCopyNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzExpandAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzExpandAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLimitsOffAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLimitsOnAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockPoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMemorizeFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMemorizeFigureShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMemorizeFigurePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMemorizePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMemorizeSelectedItemsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMemorizeShapeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+D" Class="DzMoveToFloorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPasteFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPasteFigureMorphAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPasteFigurePoseAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+V" Class="DzPasteNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPasteNodeMorphAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPasteNodePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDuplicateNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDuplicateNodeHierarchyAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+F" Class="DzRestoreFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRestoreFigureShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRestoreFigurePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRestorePoseAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+E" Class="DzRestoreSelectedItemsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRestoreShapeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+Y" Class="DzSymmetryAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+B" Class="DzBakeToTransformsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnlockShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnlockNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnlockPoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzZeroFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzZeroFigureShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzZeroFigurePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzZeroPoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzZeroSelectedItemsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzZeroShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavAddFavoriteSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavRemoveFavoriteSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavUnLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavUnHideSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavCollapseAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavCollapseAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavExpandAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavExpandAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavClearPropertyNewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavCanAutoFollowSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavCannotAutoFollowSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavLimitsOnSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSideNavLimitsOffSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavAddFavoriteSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavRemoveFavoriteSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavUnLockSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavLimitsOnSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavLimitsOffSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavCollapseAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavCollapseAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavExpandAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzElementSideNavExpandAllSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyShowSettingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyAddFavoriteAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyRemoveFavoriteAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyLockAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyUnlockAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyHideAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyUnhideAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStyledPropertyResetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSubDAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTriangulateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDetriangulateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConvertFacetRibbonsIntoLinesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConvertFacetTubesIntoLinesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzOptimizeLinesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDynLodAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewCameraAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewDistantLightAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewSpotlightAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewPointLightAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewLinearPointLightAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewGroupNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewIKChainAction" ShowTextWithIcon="false"/>
+  <Action Class="DzResetScriptEngineAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAuxVPShowIPRToolBarAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAuxVPStopIPRRenderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAuxVPStartIPRRenderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAuxVPSaveIPRRenderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAdjustRenderAspectRatioToMatchBackdropTextureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAdjustRenderDimensionsToMatchBackdropTextureAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+S" Class="DzSceneAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPushModifierAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRemovePushModifierAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewNodeInstanceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewNodeInstancesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzGroupInstancesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnGroupInstancesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewGeometryShellAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUpdateImportsFromSourceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUpdateSceneImportsFromSourceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConditionalGraftModifierAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRemoveConditionalGraftModifierAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDrawStartAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+Q" Class="DzDrawStopAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDAZScriptPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSINewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIOpenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSISaveAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSISaveAsAction" ShowTextWithIcon="false"/>
+  <Action Accel="F8" Class="DzSISaveEncryptedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIReloadAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+W" Class="DzSICloseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSICloseAllExceptCurrentAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Shift+W" Class="DzSICloseAllAction" ShowTextWithIcon="false"/>
+  <Action Accel="F5" Class="DzSIExecuteAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+X" Class="DzSICutAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSICopyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIPasteAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+Del" Class="DzSIDeleteAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+A" Class="DzSISelectAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIToggleAttributesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIToggleFindAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+F3" Class="DzSIFindFirstAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIFindPreviousAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+F3" Class="DzSIFindNextAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIReplacePreviousAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+H" Class="DzSIReplaceNextAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIReplaceAllAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+G" Class="DzSIGotoLineAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+F2" Class="DzSIPreferencesAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+F5" Class="DzSIDebugAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+F5" Class="DzSIInterruptAction" ShowTextWithIcon="false"/>
+  <Action Accel="F11" Class="DzSIStepIntoAction" ShowTextWithIcon="false"/>
+  <Action Accel="F10" Class="DzSIStepOverAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIStepOutAction" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+F10" Class="DzSIRunToCursorAction" ShowTextWithIcon="false"/>
+  <Action Accel="F9" Class="DzSIToggleBreakpointAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIClearDebugAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIClearErrorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIClearConsoleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSIDocsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAlignPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAlignAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAPResetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSetDefaultCompatibilityBasesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSceneSupportAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMorphAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUVAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderSupportAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDynamicClothAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCloneAssetSaveAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSaveModifiedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzBatchConvertPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderBakerPaneUseBakeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderBakerPaneAutoBakeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderBakerPaneRefreshBakeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzBryceBridge" ShowTextWithIcon="false"/>
+  <Action Class="DzParametersPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzParamShowHiddenPropAction" ShowTextWithIcon="false"/>
+  <Action Class="DzParamGroupExpansionModeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzParamDisplaySeparateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzParamShowFollowersAction" ShowTextWithIcon="false"/>
+  <Action Class="DzParamEditModeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzParamConsolidatePropAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPEPropertyClonerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPEPropertyMoverAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPEConformPropertyConverterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPESelectMorphVerticesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPosingPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPSNGShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPSNGDisplaySeparateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPSNGShowFollowersAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCamerasPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCMRSShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCMRSSyncWithSceneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLightsPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLGHTSShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLGHTSSyncWithSceneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShapingPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSHPNGShowHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSHPNGDisplaySeparateAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSHPNGShowFollowersAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSHPNGSyncNavigationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToolPaneAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+N" Class="DzRegionNavigatorToolAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUVViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzContentLibraryPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLColumnViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLTreeViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLSideBySideViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLContainerViewCollapsibleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLDeleteSelectedAssetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLSearchHardDrivesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLScanKnownDirsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLImportMappedDirectoriesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzContentDBEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLDatabaseMaintenanceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCLCreatePoserCompanionFilesAction" ShowTextWithIcon="false"/>
+  <Action Accel="F3" Class="DzCustomizeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDFormPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewDFormerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDFormFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDFormAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewDForceWindNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewDForceModifierWeightNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAddDForceModifierStaticSurfaceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAddDForceModifierDynamicSurfaceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAddDForceModifierDynamicSurfaceAddOnAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRemoveDForceModifierAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearDForceSimAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearDForceSimNonFrozenAllAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearDForceSimOnSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearDForceSimOnNonFrozenSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDForceSurfaceAdjusterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSelectDForceStartingCollisionVerticesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzEasyLoaderTool" ShowTextWithIcon="false"/>
+  <Action Class="DzExpExportAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFigureSetupPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSCopyFromFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSLoadPresetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSSavePresetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSLoadPHIAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSCreateFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSClearHierarchyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFSRegionEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUpdateGeometryAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMeshSmoothResetBaseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMeshSmoothMorphBakerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFilamentDrawStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewFilamentDrawOptionsNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHexBridge" ShowTextWithIcon="false"/>
+  <Action Accel="Ctrl+0" Class="DzIrayDrawStyleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewIrayDecalNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewIraySectionPlaneNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzIrayAutoExposureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewEnvironmentNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewTonemapperNodeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+J" Class="DzJointEditorToolAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJECustomColorsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJECreateBoneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJECreateSiblingBoneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEDuplicateBonesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJESplitBoneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJETogglePropagateTranslationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEToggleViewBoneCreationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEConvertPropToFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEConvertFigureToPropAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERenameNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEReparentBoneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEMirrorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEBakeRotationsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEDeleteBoneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEDeleteUnusedBonesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERotationOrderXYZAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERotationOrderXZYAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERotationOrderYXZAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERotationOrderYZXAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERotationOrderZXYAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERotationOrderZYXAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEToggleAutoAlignNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEAlignNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEAlignAllBonesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJESnapCenterPointAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJESnapEndPointAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEToggleAutoSnapEndPointsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEMemorizeFigureRiggingPropertiesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJEMemorizeNodeRiggingPropertiesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERestoreFigureRiggingPropertiesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJERestoreNodeRiggingPropertiesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJETransferWSRiggingAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJECreateDonorFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMVCCageAdjustRigToShapeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJESelectedNodesAttributesEditAction" ShowTextWithIcon="false"/>
+  <Action Class="DzJECreateControlBonesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLayerAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTextureConvertorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMorphFollowerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMorphLoadAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMorphLoaderAction" ShowTextWithIcon="false"/>
+  <Action Class="OptClothPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="OptFreezeAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+G" Class="DzPolygonGroupEditorToolAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateFaceGroupAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateMaterialGroupAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateFaceGroupFromSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateMaterialGroupFromSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateRegionGroupAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateRegionGroupFromSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateRigidityGroupAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateRigidityGroupFromSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGESetGraftTargetFacesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGESetAutoHideFacesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGEditRigidityGroupsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGDeleteSelectedFacetsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGDeleteHiddenFacetsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGDeleteUnusedVerticesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGClearDeltasFromSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGESetRigidFollowReferenceAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateRigidFollowNodeFromSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateSelectionGroupAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGECreateSelectionGroupFromSelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGMergeFollowerFacetsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPGSetSubDWeightAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPrimitiveAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPropertyHierarchyPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzERCFreezeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzERCBakeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzERCBakeKeyedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerPlayAudioAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerFillFramesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerExtendFramesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerZoomToFitAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerResetViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerCenterViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerAddLayerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerDeleteLayerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerRenameLayerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerClearLayerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerClearLayerAnimationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerDeletePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerUpdatePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerAssignImageAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerImageScaleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerDisablePoseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPuppeteerAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRendAlbumAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRendAlbumPrefsIconSizeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRendAlbumPrefsRendCntAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRendAlbumPrefsRendSizeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzEditTextureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRenderLibraryPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderCompileAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPoseFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMaterialsFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCharacterFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLightFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCameraFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUVSetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRenderSettingsFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSceneSubsetAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHierarchicalMaterialAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzHierarchicalPoseAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzWearablesAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCharacterAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPropertiesAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShapingAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPoseAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMaterialAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCameraAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLightAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRenderSettingsAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSimulationSettingsAssetFilterAction" ShowTextWithIcon="false"/>
+  <Action Class="DzScriptedStepsPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderBuilderPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSBResetShaderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSBRestoreShaderNetworksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzRSLEditorPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzREPCustomColorsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShaderMixerPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMNewShaderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMOpenShaderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMImportShaderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMCloseShaderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMSaveShaderAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMGeneralPrefsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMCutBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMCopyBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMPasteBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMDeleteBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMGroupBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBricksAlignTopsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBricksAlignLeftsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBricksAlignRightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBricksAlignBottomsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMZoomToFitAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBricksFrontAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBricksBackAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMArrangeBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMArrangeSelectedBricksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMShaderPrefsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMOnlineDocsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMRefreshCustomAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSMBrowseCustomAction" ShowTextWithIcon="false"/>
+  <Action Class="DzMDLDirectoryManagerAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSmartContentPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCStandardViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCBasicViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCFilesSideNavCollapsibleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCProductsSideNavCollapsibleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCSyncCategorySelectionAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCSyncFilterTextAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCSyncFilterContextAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSCEditProductMetadataAction" ShowTextWithIcon="false"/>
+  <Action Class="DzInstallPaneAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+C" Class="DzSpotRenderToolAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStrandHairCreateNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStrandHairEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzStrandHairBasicEditorAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTextureAtlas" ShowTextWithIcon="false"/>
+  <Action Class="DzTextureAtlasLinesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzAddKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDeleteKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLoopToggleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNextFrameAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPlayToggleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPrevFrameAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSkipToNextKeyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSkipToPlayrangeEndAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSkipToPlayrangeStartAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSkipToPrevKeyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneBasicViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneIntermediateViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneAdvancedViewAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneMonitorParametersPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePanePlayAllFramesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePanePrevKeyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneNextKeyAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneCreateKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneDeleteSelectedKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneCopySelectedKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePanePasteKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetKeyScopeObjectAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetKeyScopeNodeRecurseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetKeyScopeNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetKeyScopePropertiesAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetPropertyTypeTranslationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetPropertyTypeRotationAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetPropertyTypeScaleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetPropertyTypeOtherAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetPropertyTypeAliasAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetPropertyTypeHiddenAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetInterpTcbAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetInterpLinearAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSetInterpConstantAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSelectItemPlayRangeKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneSelectItemAnimRangeKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneDeselectItemPlayRangeKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneDeselectItemAnimRangeKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneExpandAllItemsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneExpandItemAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneExpandFromItemAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneCollapseAllItemsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneCollapseItemAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneCollapseFromItemAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneMoveRootNodeToTopAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneMoveRootNodeUpAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneMoveRootNodeDownAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneMoveRootNodeToBottomAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneRefreshDopesheetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTimePaneFrameGraphKeysAction" ShowTextWithIcon="false"/>
+  <Action Class="DzTransferUtilityAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConvertFigureAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConvertLocalMapsToGeneralAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConvertToBlendedLocalGeneralAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearGeneratedMorphsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzConvertGeneralMapsToLocalAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearGeneralWeightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearLocalWeightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzClearScaleWeightsAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+W" Class="DzNodeWeightBrushToolAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightSymAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightNormalizeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzShowChildrenNodeWeightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightGeneralMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightScaleMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightXRotationMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightXBulgeLMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightXBulgeRMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightYRotationMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightYBulgeLMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightYBulgeRMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightZRotationMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightZBulgeLMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightZBulgeRMapAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFilterNodeWeightAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNodeWeightBySelectionSetAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCopyNodeWeightMapsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzCopyOtherFigureMapsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDistributeSelectedWeightsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockSelectedBoneBindingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockSelectedBoneBindingsRecurseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockUnselectedBoneBindingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockAllBoneBindingsExceptSelectedParentAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockAllBoneBindingsExceptSelectedChildAction" ShowTextWithIcon="false"/>
+  <Action Class="DzLockAllBoneBindingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnlockSelectedBoneBindingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnlockSelectedBoneBindingsRecurseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzUnlockAllBoneBindingsAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToggleSelectedBoneBindingLocksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToggleSelectedBoneBindingLocksRecurseAction" ShowTextWithIcon="false"/>
+  <Action Class="DzToggleAllBoneBindingLocksAction" ShowTextWithIcon="false"/>
+  <Action Class="DzNewPushModifierWeightNodeAction" ShowTextWithIcon="false"/>
+  <Action Class="DzSceneInfoPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="PowerPosePaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzPowerPoseEditModeAction" ShowTextWithIcon="false"/>
+  <Action Class="PowerPosePinAction" ShowTextWithIcon="false"/>
+  <Action Class="PowerPoseUnPinAction" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+P" Class="DzEasyPosingToolAction" ShowTextWithIcon="false"/>
+  <Action Class="aniMateAction" ShowTextWithIcon="false"/>
+  <Action Class="aniMateSeekFirst" ShowTextWithIcon="false"/>
+  <Action Class="aniMatePlayToggle" ShowTextWithIcon="false"/>
+  <Action Class="aniMateSeekLast" ShowTextWithIcon="false"/>
+  <Action Class="aniMateFrameNext" ShowTextWithIcon="false"/>
+  <Action Class="aniMateFramePrev" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+Z" Class="aniMateZoomIn" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+A" Class="aniMateZoomOut" ShowTextWithIcon="false"/>
+  <Action Class="aniMateCopy" ShowTextWithIcon="false"/>
+  <Action Class="aniMatePaste" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+D" Class="aniMateDelete" ShowTextWithIcon="false"/>
+  <Action Class="aniMateKey" ShowTextWithIcon="false"/>
+  <Action Accel="Shift+E" Class="aniMateZero" ShowTextWithIcon="false"/>
+  <Action Class="aniMatePreferences" ShowTextWithIcon="false"/>
+  <Action Accel="Alt+Shift+A" Class="aniMate2ViewToolAction" ShowTextWithIcon="false"/>
+  <Action Class="aniMate2Pane1Action" ShowTextWithIcon="false"/>
+  <Action Class="DzFaceTransferPaneAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFaceTransferSelectImageAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFaceTransferGenerateSelectedAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFaceTransferGenerateMaleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFaceTransferGenerateFemaleAction" ShowTextWithIcon="false"/>
+  <Action Class="DzFaceTransferSaveAction" ShowTextWithIcon="false"/>
+  <Action Class="DzDefaultPropertyPresentationsAction"/>
+  <Action Class="DzInverseAction"/>
+  <Action Class="DzPSBridgeAction"/>
+  <Action Class="DzAssetCollectorAction"/>
+  <Action Class="DzAutoRiggerInitializeAction"/>
+  <Action Class="DzAutoRiggerApplyAction"/>
+  <Action Class="DzAutoRiggerCleanUpAction"/>
+  <Action Class="DzAddDForceModifierHairAction"/>
+  <Action Class="DzSinkRootsAndAlignFirstSegmentAction"/>
+  <Action Class="DzGoZAction"/>
+  <Action Accel="F6" Class="DzInlineHelpEditorAction"/>
+  <Action Class="DzInlineHelpSaveAction"/>
+  <Action Class="DzMMExportMeasurementsAction"/>
+  <Action Class="DzMMSelectAllAction"/>
+  <Action Class="DzMMSelectTapeMeasuresAction"/>
+  <Action Class="DzMMSelectTailorTapesAction"/>
+  <Action Class="DzMMSelectProtractorsAction"/>
+  <Action Class="DzMMSelectCompoundMeasuresAction"/>
+  <Action Class="DzMMSelectChildrenAction"/>
+  <Action Class="DzMMDeselectChildrenAction"/>
+  <Action Class="DzMMInvertSelectionAction"/>
+  <Action Class="DzMMNoSortAction"/>
+  <Action Class="DzMMSortAscendAction"/>
+  <Action Class="DzMMSortDescendAction"/>
+  <Action Class="DzMMExpandAllAction"/>
+  <Action Class="DzMMExpandSelectedAction"/>
+  <Action Class="DzMMCloseAllAction"/>
+  <Action Class="DzMMCloseSelectedAction"/>
+  <Action Class="DzCreateMeasureMetricsAction"/>
+  <Action Class="DzMMSetTailorTapeTargetFacetsAction"/>
+  <Action Class="OptGarmentFilterAction"/>
+  <Action Class="OptFabricFilterAction"/>
+  <Action Class="OptGarmentAssetFilterAction"/>
+  <Action Class="OptFabricAssetFilterAction"/>
+  <Action Class="OptManageStylesAction"/>
+  <Action Class="DzEqualizeLineSegmentsAction"/>
+  <Action Class="DzFilterWeightAction"/>
+  <Action Class="DzWeightBySelectionSetAction"/>
+  <Action Class="DzCopyWeightMapsAction"/>
+  <Action Class="DzBrowseForMimicProAction"/>
+ </ActionList>
+ <ViewAccelerators>
+  <OrbitCameraAccel Accel="MidMB"/>
+  <RotateCameraAccel Accel="Ctrl+Shift+LeftMB"/>
+  <PanCameraAccel Accel="Alt+MidMB"/>
+  <DollyCameraAccel Accel="Ctrl+Alt+MidMB"/>
+  <BankCameraAccel Accel="Ctrl+Shift+MidMB"/>
+  <ZoomDCameraAccel Accel="Ctrl+Shift+RightMB"/>
+  <ZoomFCameraAccel Accel=""/>
+ </ViewAccelerators>
+ <ViewToolAccelerators>
+  <DzPolygonGroupEditorTool>
+   <MouseBtnAccel ModifierName="Add to Selection" ModifierAccel="Ctrl"/>
+   <MouseBtnAccel ModifierName="Remove from Selection" ModifierAccel="Alt"/>
+   <MouseWheelAccel ModifierName="Brush General Size" ModifierAccel="Ctrl"/>
+   <MouseWheelAccel ModifierName="Brush Inner Size" ModifierAccel="Shift"/>
+   <MouseWheelAccel ModifierName="Brush Outer Size" ModifierAccel="Alt"/>
+   <MouseBtnAccel ModifierName="Constrain Gradient" ModifierAccel="Alt"/>
+   <MouseBtnAccel ModifierName="Single Side Scale" ModifierAccel="Ctrl"/>
+  </DzPolygonGroupEditorTool>
+  <DzNodeWeightBrushTool>
+   <MouseWheelAccel ModifierName="Brush General Size" ModifierAccel="Ctrl"/>
+   <MouseWheelAccel ModifierName="Brush Inner Size" ModifierAccel="Shift"/>
+   <MouseWheelAccel ModifierName="Brush Outer Size" ModifierAccel="Alt"/>
+   <MouseBtnAccel ModifierName="Constrain Gradient" ModifierAccel="Alt"/>
+   <MouseBtnAccel ModifierName="Single Side Scale" ModifierAccel="Ctrl"/>
+   <MouseBtnAccel ModifierName="Subtractive Painting" ModifierAccel="Alt"/>
+   <MouseBtnAccel ModifierName="Alternate Brush" ModifierAccel="Ctrl"/>
+  </DzNodeWeightBrushTool>
+ </ViewToolAccelerators>
+</DAZStudioActionMgr>
