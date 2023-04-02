@@ -1,0 +1,51 @@
+// DAZ Studio version 4.21.0.5 filetype DAZ Script
+
+function transferY(a,b){
+
+	var t8,t2;
+
+	t8=Scene.findNodeByLabel(a);
+
+	t2=Scene.findNodeByLabel(b);
+
+	var valr=t2.getYRotControl().getValue ();
+
+	t8.getYRotControl ().setValue (valr);	
+
+}
+
+function transferX(a,b){
+
+	var t8,t2;
+
+	t8=Scene.findNodeByLabel(a);
+
+	t2=Scene.findNodeByLabel(b);
+
+	var valr=t2.getXRotControl().getValue ();
+
+	print (valr);
+
+	t8.getXRotControl ().setValue (valr);	
+
+}
+
+var nframes=Scene.getAnimRange().getDuration ().valueOf()/Scene.getTimeStep().valueOf();
+
+for( var fr = 0; fr <= nframes; fr+=1 ){
+
+	Scene.setFrame( fr );
+
+	transferY("Left Thigh Twist","lThigh");
+
+	transferY("Right Thigh Twist","rThigh");
+
+	transferX("Right Shoulder Twist","rShldr");
+
+	transferX("Left Shoulder Twist","lShldr");
+
+	transferX("Left Forearm Twist","lForeArm");
+
+	transferX("Right Forearm Twist","rForeArm");
+
+}
